@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017/4/16 9:37:48。
+     1>项目“E:\OpenSourceProject\LearnOpenGL-master\VS\3.model_loading_1.model_loading.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/3.model_loading/1.model_loading/shader.vs E:/OpenSourceProject/LearnOpenGL-master/bin/3.model_loading/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/3.model_loading/1.model_loading/shader.frag E:/OpenSourceProject/LearnOpenGL-master/bin/3.model_loading/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSourceProject\LearnOpenGL-master\bin\3.model_loading\Debug\3.model_loading_1.model_loading.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib" /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib assimp.lib Debug\STB_IMAGE.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OpenSourceProject/LearnOpenGL-master/bin/3.model_loading/Debug/3.model_loading_1.model_loading.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OpenSourceProject/LearnOpenGL-master/VS/Debug/3.model_loading_1.model_loading.lib" /MACHINE:X86 /SAFESEH  /machine:X86 3.model_loading_1.model_loading.dir\Debug\model_rendered.obj
+         3.model_loading_1.model_loading.vcxproj -> E:\OpenSourceProject\LearnOpenGL-master\bin\3.model_loading\Debug\3.model_loading_1.model_loading.exe
+     1>已完成生成项目“E:\OpenSourceProject\LearnOpenGL-master\VS\3.model_loading_1.model_loading.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.07

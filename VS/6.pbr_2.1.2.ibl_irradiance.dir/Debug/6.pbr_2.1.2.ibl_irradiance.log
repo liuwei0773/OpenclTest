@@ -1,0 +1,130 @@
+﻿生成启动时间为 2017/4/13 9:10:14。
+     1>项目“E:\OpenSourceProject\LearnOpenGL-master\VS\6.pbr_2.1.2.ibl_irradiance.vcxproj”在节点 4 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.background.vs E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.cubemap.vs E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.pbr.vs E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.background.frag E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.equirectangular_to_cubemap.frag E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.irradiance_convolution.frag E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/6.pbr/2.1.2.ibl_irradiance/2.1.2.pbr.frag E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule E:/OpenSourceProject/LearnOpenGL-master/CMakeLists.txt
+         CMake does not need to re-run because E:\OpenSourceProject\LearnOpenGL-master\VS\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files\VS2015\VC\bin\CL.exe /c /I"E:\OpenSourceProject\LearnOpenGL-master\VS\configuration" /I"E:\OpenSourceProject\LearnOpenGL-master\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"6.pbr_2.1.2.ibl_irradiance.dir\Debug\\" /Fd"6.pbr_2.1.2.ibl_irradiance.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         ibl_irradiance.cpp
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/shader.h(63): warning C4101: “infoLog”: 未引用的局部变量
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/shader.h(62): warning C4101: “success”: 未引用的局部变量
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/filesystem.h(22): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: 参见“getenv”的声明
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(250): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(348): warning C4305: “初始化”: 从“double”到“float”截断
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(389): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(413): warning C4244: “参数”: 从“float”转换到“GLsizei”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(415): warning C4244: “参数”: 从“float”转换到“GLsizei”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(417): warning C4244: “参数”: 从“float”转换到“GLsizei”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(581): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(582): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(586): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(587): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(589): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(590): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance.cpp(597): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSourceProject\LearnOpenGL-master\bin\6.pbr\Debug\6.pbr_2.1.2.ibl_irradiance.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib" /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib assimp.lib Debug\STB_IMAGE.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OpenSourceProject/LearnOpenGL-master/bin/6.pbr/Debug/6.pbr_2.1.2.ibl_irradiance.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OpenSourceProject/LearnOpenGL-master/VS/Debug/6.pbr_2.1.2.ibl_irradiance.lib" /MACHINE:X86 /SAFESEH  /machine:X86 6.pbr_2.1.2.ibl_irradiance.dir\Debug\ibl_irradiance.obj
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_load 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_load_from_memory 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_load_from_file 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_loadf 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_loadf_from_memory 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_loadf_from_file 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_hdr_to_ldr_gamma 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_hdr_to_ldr_scale 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_ldr_to_hdr_gamma 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_ldr_to_hdr_scale 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_is_hdr_from_memory 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_is_hdr 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_is_hdr_from_file 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_failure_reason 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_image_free 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_zlib_decode_malloc_guesssize 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_zlib_decode_malloc 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_zlib_decode_buffer 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_zlib_decode_noheader_malloc 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>STB_IMAGE.lib(stb_image.obj) : error LNK2005: _stbi_zlib_decode_noheader_buffer 已经在 SOIL.lib(stb_image_aug.obj) 中定义
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>E:\OpenSourceProject\LearnOpenGL-master\bin\6.pbr\Debug\6.pbr_2.1.2.ibl_irradiance.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“E:\OpenSourceProject\LearnOpenGL-master\VS\6.pbr_2.1.2.ibl_irradiance.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.02

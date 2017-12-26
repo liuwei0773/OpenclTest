@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\3.1.blending_discard\blending_discard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\OpenSourceProject\LearnOpenGL-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3683C622-5673-3F83-B938-C3C82AF23B6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

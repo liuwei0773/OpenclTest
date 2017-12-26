@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/4/13 9:46:11。
+     1>项目“E:\OpenSourceProject\LearnOpenGL-master\VS\1.getting_started_2.hello_triangle.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS2015\VC\bin\CL.exe /c /I"E:\OpenSourceProject\LearnOpenGL-master\VS\configuration" /I"E:\OpenSourceProject\LearnOpenGL-master\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"1.getting_started_2.hello_triangle.dir\Debug\\" /Fd"1.getting_started_2.hello_triangle.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "E:\OpenSourceProject\LearnOpenGL-master\src\1.getting_started\2.hello_triangle\hellotriangle2.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         hellotriangle2.cpp
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSourceProject\LearnOpenGL-master\bin\1.getting_started\Debug\1.getting_started_2.hello_triangle.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib" /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib assimp.lib Debug\STB_IMAGE.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OpenSourceProject/LearnOpenGL-master/bin/1.getting_started/Debug/1.getting_started_2.hello_triangle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OpenSourceProject/LearnOpenGL-master/VS/Debug/1.getting_started_2.hello_triangle.lib" /MACHINE:X86 /SAFESEH  /machine:X86 1.getting_started_2.hello_triangle.dir\Debug\hellotriangle2.obj
+         1.getting_started_2.hello_triangle.vcxproj -> E:\OpenSourceProject\LearnOpenGL-master\bin\1.getting_started\Debug\1.getting_started_2.hello_triangle.exe
+     1>已完成生成项目“E:\OpenSourceProject\LearnOpenGL-master\VS\1.getting_started_2.hello_triangle.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.64

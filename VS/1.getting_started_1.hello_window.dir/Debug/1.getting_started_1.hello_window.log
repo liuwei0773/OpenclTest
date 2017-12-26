@@ -1,0 +1,48 @@
+﻿生成启动时间为 2017/4/13 9:11:18。
+     1>项目“E:\OpenSourceProject\LearnOpenGL-master\VS\1.getting_started_1.hello_window.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/1.getting_started/1.hello_window/shader.vs E:/OpenSourceProject/LearnOpenGL-master/bin/1.getting_started/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/1.getting_started/1.hello_window/shader.frag E:/OpenSourceProject/LearnOpenGL-master/bin/1.getting_started/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule E:/OpenSourceProject/LearnOpenGL-master/CMakeLists.txt
+         CMake does not need to re-run because E:\OpenSourceProject\LearnOpenGL-master\VS\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files\VS2015\VC\bin\CL.exe /c /I"E:\OpenSourceProject\LearnOpenGL-master\VS\configuration" /I"E:\OpenSourceProject\LearnOpenGL-master\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"1.getting_started_1.hello_window.dir\Debug\\" /Fd"1.getting_started_1.hello_window.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "E:\OpenSourceProject\LearnOpenGL-master\src\1.getting_started\1.hello_window\hellowindow2.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         hellowindow2.cpp
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSourceProject\LearnOpenGL-master\bin\1.getting_started\Debug\1.getting_started_1.hello_window.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib" /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib assimp.lib Debug\STB_IMAGE.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OpenSourceProject/LearnOpenGL-master/bin/1.getting_started/Debug/1.getting_started_1.hello_window.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OpenSourceProject/LearnOpenGL-master/VS/Debug/1.getting_started_1.hello_window.lib" /MACHINE:X86 /SAFESEH  /machine:X86 1.getting_started_1.hello_window.dir\Debug\hellowindow2.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\1.getting_started\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         1.getting_started_1.hello_window.vcxproj -> E:\OpenSourceProject\LearnOpenGL-master\bin\1.getting_started\Debug\1.getting_started_1.hello_window.exe
+     1>已完成生成项目“E:\OpenSourceProject\LearnOpenGL-master\VS\1.getting_started_1.hello_window.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.77

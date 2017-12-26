@@ -1,0 +1,9 @@
+# ignores following folders
+bin/
+build/
+
+*.opendb
+*.pdb
+*.exe
+*.obj
+*.sdf

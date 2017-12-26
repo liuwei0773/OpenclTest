@@ -1,0 +1,76 @@
+﻿生成启动时间为 2017/4/14 10:58:49。
+     1>项目“E:\OpenSourceProject\LearnOpenGL-master\VS\2.lighting_3.materials.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/2.lighting/3.materials/lamp.vs E:/OpenSourceProject/LearnOpenGL-master/bin/2.lighting/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/2.lighting/3.materials/materials.vs E:/OpenSourceProject/LearnOpenGL-master/bin/2.lighting/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/2.lighting/3.materials/lamp.frag E:/OpenSourceProject/LearnOpenGL-master/bin/2.lighting/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/2.lighting/3.materials/materials.frag E:/OpenSourceProject/LearnOpenGL-master/bin/2.lighting/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         D:\Program Files\VS2015\VC\bin\CL.exe /c /I"E:\OpenSourceProject\LearnOpenGL-master\VS\configuration" /I"E:\OpenSourceProject\LearnOpenGL-master\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"2.lighting_3.materials.dir\Debug\\" /Fd"2.lighting_3.materials.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         materials.cpp
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/shader.h(63): warning C4101: “infoLog”: 未引用的局部变量
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/shader.h(62): warning C4101: “success”: 未引用的局部变量
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(161): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(182): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(183): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(184): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(274): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(275): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(279): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(280): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(282): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(283): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\2.lighting\3.materials\materials.cpp(290): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSourceProject\LearnOpenGL-master\bin\2.lighting\Debug\2.lighting_3.materials.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib" /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib assimp.lib Debug\STB_IMAGE.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OpenSourceProject/LearnOpenGL-master/bin/2.lighting/Debug/2.lighting_3.materials.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OpenSourceProject/LearnOpenGL-master/VS/Debug/2.lighting_3.materials.lib" /MACHINE:X86 /SAFESEH  /machine:X86 2.lighting_3.materials.dir\Debug\materials.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\2.lighting\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         2.lighting_3.materials.vcxproj -> E:\OpenSourceProject\LearnOpenGL-master\bin\2.lighting\Debug\2.lighting_3.materials.exe
+     1>已完成生成项目“E:\OpenSourceProject\LearnOpenGL-master\VS\2.lighting_3.materials.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.67

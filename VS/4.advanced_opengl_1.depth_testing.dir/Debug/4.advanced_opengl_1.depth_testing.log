@@ -1,0 +1,65 @@
+﻿生成启动时间为 2017/4/13 9:09:12。
+     1>项目“E:\OpenSourceProject\LearnOpenGL-master\VS\4.advanced_opengl_1.depth_testing.vcxproj”在节点 4 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/4.advanced_opengl/1.depth_testing/depth_testing.vs E:/OpenSourceProject/LearnOpenGL-master/bin/4.advanced_opengl/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\cmake-3.5.2-win32-x86\bin\cmake.exe" -E copy E:/OpenSourceProject/LearnOpenGL-master/src/4.advanced_opengl/1.depth_testing/depth_testing.frag E:/OpenSourceProject/LearnOpenGL-master/bin/4.advanced_opengl/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule E:/OpenSourceProject/LearnOpenGL-master/CMakeLists.txt
+         CMake does not need to re-run because E:\OpenSourceProject\LearnOpenGL-master\VS\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Program Files\VS2015\VC\bin\CL.exe /c /I"E:\OpenSourceProject\LearnOpenGL-master\VS\configuration" /I"E:\OpenSourceProject\LearnOpenGL-master\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"4.advanced_opengl_1.depth_testing.dir\Debug\\" /Fd"4.advanced_opengl_1.depth_testing.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         depth_testing_func.cpp
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/shader.h(63): warning C4101: “infoLog”: 未引用的局部变量
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/shader.h(62): warning C4101: “success”: 未引用的局部变量
+     1>E:\OpenSourceProject\LearnOpenGL-master\includes\learnopengl/filesystem.h(22): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1183): note: 参见“getenv”的声明
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(168): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(272): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(273): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(277): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(278): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(280): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(281): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>E:\OpenSourceProject\LearnOpenGL-master\src\4.advanced_opengl\1.depth_testing\depth_testing_func.cpp(288): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\4.advanced_opengl_1.depth_testing.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib" /LIBPATH:"E:/OpenSourceProject/LearnOpenGL-master/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib assimp.lib Debug\STB_IMAGE.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/OpenSourceProject/LearnOpenGL-master/bin/4.advanced_opengl/Debug/4.advanced_opengl_1.depth_testing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/OpenSourceProject/LearnOpenGL-master/VS/Debug/4.advanced_opengl_1.depth_testing.lib" /MACHINE:X86 /SAFESEH  /machine:X86 4.advanced_opengl_1.depth_testing.dir\Debug\depth_testing_func.obj
+     1>SOIL.lib(SOIL.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“SOIL.lib(image_DXT.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“SOIL.lib(image_helper.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“SOIL.lib(SOIL.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“SOIL.lib(stb_image_aug.obj)”或在“E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         4.advanced_opengl_1.depth_testing.vcxproj -> E:\OpenSourceProject\LearnOpenGL-master\bin\4.advanced_opengl\Debug\4.advanced_opengl_1.depth_testing.exe
+     1>已完成生成项目“E:\OpenSourceProject\LearnOpenGL-master\VS\4.advanced_opengl_1.depth_testing.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.38
